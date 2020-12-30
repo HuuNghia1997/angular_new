@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: 'list-category',
     loadChildren: () => import('./pages/list-category/list-category.module').then(m => m.ListCategoryModule),
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],
   }
 ];
 
